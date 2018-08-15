@@ -302,7 +302,7 @@ DEPENDENCIES
   wikipedia-client (~> 1.6.3)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.5.0p0
 
 BUNDLED WITH
-   1.14.5
+   1.16.3
