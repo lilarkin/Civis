@@ -1,6 +1,9 @@
 {
   "name": "repack",
-  "repository": "https://github.com/cottonwoodcoding/repack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cottonwoodcoding/repack.git"
+  },
   "version": "0.0.1",
   "license": "MIT",
   "engine": "node >= 0.4.1",
@@ -12,7 +15,7 @@
     "testRegex": "test.js$"
   },
   "scripts": {
-    "dev_server": "./node_modules/.bin/webpack-dev-server --config config/webpack.config.js",
+    "dev_server": "webpack-dev-server --config config/webpack.config.js",
     "build": "webpack --config=config/webpack.config.js -p",
     "heroku-setup": "heroku buildpacks:clear && heroku buildpacks:set heroku/nodejs && heroku buildpacks:add heroku/ruby --index 2",
     "webpack:deploy-heroku": "webpack --config=config/webpack.config.heroku.js -p",
@@ -67,5 +70,16 @@
     "sinon": "^1.17.7",
     "webpack-dashboard": "^0.2.0",
     "webpack-dev-server": "^1.9.0"
-  }
+  },
+  "description": "Civis makes it easy to stay informed and in touch with your legislators. After identifying your location, Civis will identify your congressional representatives from our database. Civis will give you all you need to know about your legislators by combining information from ProPublica, Wikipedia, the New York Times, Twitter, and Google. In addition, by signing up, you can receive news alerts whenever your representatives are in the news, so that you can stay informed and be a better citizen. Civis is also available as an iOS and Android native app using React Native.",
+  "bugs": {
+    "url": "https://github.com/cottonwoodcoding/repack/issues"
+  },
+  "homepage": "https://github.com/cottonwoodcoding/repack#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": ""
 }
