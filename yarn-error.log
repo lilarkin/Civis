@@ -5,7 +5,7 @@ PATH:
   /Users/GuyandCooper/.rbenv/shims:/Applications/Postgres.app/Contents/Versions/9.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin
 
 Yarn version: 
-  0.21.3
+  1.9.4
 
 Node version: 
   7.6.0
